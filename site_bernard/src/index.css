@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Inter', system-ui, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color-scheme: dark;
+  color: #F5F5F5;
+  background-color: #1E1E1E;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -19,24 +21,28 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #6A8B74;
   text-decoration: inherit;
+  transition: color 0.2s ease;
 }
 a:hover {
-  color: #535bf2;
+  color: #58705E;
 }
 
 body {
   margin: 0;
+  padding: 0;
   display: flex;
-  place-items: center;
-  min-width: 320px;
+  min-width: 100vw;
   min-height: 100vh;
+  background-color: #1E1E1E;
+  color: #F5F5F5;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  color: #F5F5F5;
+  font-weight: 600;
 }
 
 button {
@@ -46,27 +52,15 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #2A2A2A;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: all 0.2s ease;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #6A8B74;
 }
 button:focus,
 button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+  outline: 2px solid #6A8B74;
+  outline-offset: 2px;
 }
