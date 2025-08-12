@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Informations de l'artiste */}
           <div>
-            <h3 className="text-lg font-display font-semibold text-text-primary mb-4">Bernard</h3>
+            <h3 className="text-lg font-display font-semibold text-text-primary mb-4">Arthur</h3>
             <p className="text-text-secondary text-sm leading-relaxed font-body">
               Artiste peintre passionné par l'exploration des couleurs et des formes. 
               Chaque œuvre raconte une histoire unique.
@@ -45,7 +45,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-display font-semibold text-text-primary mb-4">Contact</h3>
             <div className="space-y-2 text-text-secondary font-body">
-              <p>Email: contact@bernard-artiste.fr</p>
+              <p>Email: contact@Arthur-artiste.fr</p>
               <p>Téléphone: +33 1 23 45 67 89</p>
               <p>Adresse: 123 Rue de l'Art, Paris</p>
             </div>
@@ -55,7 +55,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-gallery-border mt-8 pt-8 text-center">
           <p className="text-text-secondary text-sm font-body">
-            © {currentYear} Bernard. Tous droits réservés.
+            © {currentYear} Arthur. Tous droits réservés.
           </p>
         </div>
       </div>

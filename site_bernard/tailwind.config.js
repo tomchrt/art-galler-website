@@ -30,8 +30,8 @@ export default {
         }
       },
       fontFamily: {
-        'display': ['Playfair Display', 'serif'],     // Titres artistiques
-        'body': ['Inter', 'sans-serif'],             // Texte principal
+        'title': ['"Playfair Display"', 'serif'],     // Titres artistiques élégants
+        'body': ['Inter', 'sans-serif'],              // Texte principal ultra-lisible
       }
     },
   },

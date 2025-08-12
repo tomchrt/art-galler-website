@@ -21,7 +21,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-sage rounded-full"></div>
-            <span className="text-xl font-display font-bold text-text-primary">Galerie Bernard</span>
+            <span className="text-xl font-title font-bold text-text-primary">Galerie Arthur</span>
           </Link>
 
           {/* Navigation Desktop */}
@@ -30,7 +30,7 @@ const Header = () => {
               <Link
                 key={item.path}
                 to={item.path}
-                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                className={`px-3 py-2 rounded-md text-sm font-body font-medium transition-colors ${
                   isActive(item.path)
                     ? 'text-sage bg-gallery-card'
                     : 'text-text-primary hover:text-sage hover:bg-gallery-card'
@@ -64,7 +64,7 @@ const Header = () => {
                 <Link
                   key={item.path}
                   to={item.path}
-                  className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${
+                  className={`block px-3 py-2 rounded-md text-base font-body font-medium transition-colors ${
                     isActive(item.path)
                       ? 'text-sage bg-gallery-card'
                       : 'text-text-primary hover:text-sage hover:bg-gallery-card'

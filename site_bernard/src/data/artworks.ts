@@ -7,97 +7,151 @@ interface Artwork {
   year?: number;
   technique?: string;
   dimensions?: string;
+  aspectRatio: 'square' | 'portrait' | 'landscape' | 'tall' | 'wide';
 }
 
 export const artworks: Artwork[] = [
   {
     id: 1,
-    title: "Composition abstraite",
-    description: "Exploration des formes et couleurs contemporaines",
-    imageUrl: "/images/artwork1.jpg",
+    title: "Composition 1",
+    description: "Œuvre contemporaine explorant les formes et couleurs",
+    imageUrl: "/src/images/image00001.jpeg",
     category: "Peintures",
     year: 2024,
-    technique: "Huile sur toile",
-    dimensions: "100 x 80 cm"
+    technique: "Technique mixte",
+    dimensions: "100 x 80 cm",
+    aspectRatio: "landscape"
   },
   {
     id: 2,
-    title: "Paysage urbain",
-    description: "Vue de la ville au coucher du soleil",
-    imageUrl: "/images/artwork2.jpg",
+    title: "Composition 2",
+    description: "Exploration des textures et matières",
+    imageUrl: "/src/images/image00002.jpeg",
     category: "Peintures",
-    year: 2023,
+    year: 2024,
     technique: "Acrylique sur toile",
-    dimensions: "120 x 90 cm"
+    dimensions: "120 x 90 cm",
+    aspectRatio: "landscape"
   },
   {
     id: 3,
-    title: "Portrait intérieur",
-    description: "Exploration de l'âme humaine à travers la peinture",
-    imageUrl: "/images/artwork3.jpg",
+    title: "Composition 3",
+    description: "Abstraction géométrique et couleurs vives",
+    imageUrl: "/src/images/image00003.jpeg",
     category: "Peintures",
     year: 2024,
     technique: "Huile sur toile",
-    dimensions: "80 x 100 cm"
+    dimensions: "80 x 100 cm",
+    aspectRatio: "portrait"
   },
   {
     id: 4,
-    title: "Nature morte moderne",
-    description: "Réinterprétation contemporaine du genre classique",
-    imageUrl: "/images/artwork4.jpg",
+    title: "Composition 4",
+    description: "Étude de composition et d'équilibre",
+    imageUrl: "/src/images/image00004.jpeg",
     category: "Peintures",
-    year: 2023,
-    technique: "Acrylique sur toile",
-    dimensions: "60 x 80 cm"
+    year: 2024,
+    technique: "Mixte sur toile",
+    dimensions: "100 x 100 cm",
+    aspectRatio: "square"
   },
   {
     id: 5,
-    title: "Émotions colorées",
-    description: "Expression des sentiments à travers la palette chromatique",
-    imageUrl: "/images/artwork5.jpg",
+    title: "Composition 5",
+    description: "Exploration des formes organiques",
+    imageUrl: "/src/images/image00005.jpeg",
     category: "Peintures",
     year: 2024,
-    technique: "Huile sur toile",
-    dimensions: "100 x 100 cm"
+    technique: "Acrylique sur toile",
+    dimensions: "120 x 80 cm",
+    aspectRatio: "landscape"
   },
   {
     id: 6,
-    title: "Horizon lointain",
-    description: "Paysage marin aux tons apaisants",
-    imageUrl: "/images/artwork6.jpg",
+    title: "Composition 6",
+    description: "Paysage abstrait aux tons apaisants",
+    imageUrl: "/src/images/image00006.jpeg",
     category: "Peintures",
-    year: 2022,
-    technique: "Acrylique sur toile",
-    dimensions: "150 x 100 cm"
+    year: 2024,
+    technique: "Huile sur toile",
+    dimensions: "100 x 150 cm",
+    aspectRatio: "tall"
   },
   {
     id: 7,
-    title: "Sculpture en bronze",
-    description: "Forme organique inspirée de la nature",
-    imageUrl: "/images/sculpture1.jpg",
-    category: "Autres",
-    year: 2023,
-    technique: "Bronze patiné",
-    dimensions: "H: 45 cm"
+    title: "Composition 7",
+    description: "Formes géométriques et contrastes",
+    imageUrl: "/src/images/image00007.jpeg",
+    category: "Peintures",
+    year: 2024,
+    technique: "Acrylique sur toile",
+    dimensions: "80 x 120 cm",
+    aspectRatio: "landscape"
   },
   {
     id: 8,
-    title: "Installation lumineuse",
-    description: "Expérience immersive avec lumière et espace",
-    imageUrl: "/images/installation1.jpg",
-    category: "Autres",
+    title: "Composition 8",
+    description: "Exploration chromatique et rythmes",
+    imageUrl: "/src/images/image00008.jpeg",
+    category: "Peintures",
     year: 2024,
-    technique: "Lumière LED, matériaux mixtes",
-    dimensions: "Variable"
+    technique: "Mixte sur toile",
+    dimensions: "90 x 90 cm",
+    aspectRatio: "landscape"
   },
   {
     id: 9,
-    title: "Dessin au fusain",
-    description: "Étude de composition en noir et blanc",
-    imageUrl: "/images/dessin1.jpg",
-    category: "Autres",
-    year: 2023,
-    technique: "Fusain sur papier",
-    dimensions: "50 x 70 cm"
+    title: "Composition 9",
+    description: "Abstraction lyrique et gestuelle",
+    imageUrl: "/src/images/image00009.jpeg",
+    category: "Peintures",
+    year: 2024,
+    technique: "Huile sur toile",
+    dimensions: "100 x 120 cm",
+    aspectRatio: "portrait"
+  },
+  {
+    id: 10,
+    title: "Composition 10",
+    description: "Formes biomorphiques et couleurs terre",
+    imageUrl: "/src/images/image00010.jpeg",
+    category: "Peintures",
+    year: 2024,
+    technique: "Acrylique sur toile",
+    dimensions: "120 x 100 cm",
+    aspectRatio: "landscape"
+  },
+  {
+    id: 11,
+    title: "Composition 11",
+    description: "Étude de lumière et d'ombre",
+    imageUrl: "/src/images/image00011.jpeg",
+    category: "Peintures",
+    year: 2024,
+    technique: "Huile sur toile",
+    dimensions: "80 x 100 cm",
+    aspectRatio: "portrait"
+  },
+  {
+    id: 12,
+    title: "Composition 12",
+    description: "Composition dynamique et mouvement",
+    imageUrl: "/src/images/image00012.jpeg",
+    category: "Peintures",
+    year: 2024,
+    technique: "Mixte sur toile",
+    dimensions: "100 x 80 cm",
+    aspectRatio: "landscape"
+  },
+  {
+    id: 13,
+    title: "Composition 13",
+    description: "Exploration des limites et frontières",
+    imageUrl: "/src/images/image00013.jpeg",
+    category: "Peintures",
+    year: 2024,
+    technique: "Acrylique sur toile",
+    dimensions: "90 x 120 cm",
+    aspectRatio: "portrait"
   }
 ];
