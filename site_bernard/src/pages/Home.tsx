@@ -28,7 +28,7 @@ const Home = () => {
                 Découvrez une collection unique d'œuvres contemporaines qui repoussent les limites de l'expression artistique et invitent à la réflexion.
               </p>
               <Link 
-                to="/gallery" 
+                to="/galerie" 
                 className="inline-flex items-center px-8 py-4 bg-sage hover:bg-sage-dark text-white font-medium rounded-lg transition-all duration-300 hover:shadow-lg hover:scale-105"
               >
                 VOIR LA GALERIE
